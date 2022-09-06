@@ -36,7 +36,7 @@ func main() {
 
 	input := &cloudformation.ListTypesInput{
 		ProvisioningType: types.ProvisioningTypeFullyMutable,
-		Visibility:       types.VisibilityPublic,
+		Visibility:       types.VisibilityPrivate,
 	}
 	var typeSummaries []types.TypeSummary
 	for {
@@ -58,7 +58,7 @@ func main() {
 
 	input = &cloudformation.ListTypesInput{
 		ProvisioningType: types.ProvisioningTypeImmutable,
-		Visibility:       types.VisibilityPublic,
+		Visibility:       types.VisibilityPrivate,
 	}
 	for {
 		output, err := cfClient.ListTypes(ctx, input)
@@ -80,11 +80,11 @@ func main() {
 	var cfTypeNames []string
 	for _, typeSummary := range typeSummaries {
 		typeName := aws.ToString(typeSummary.TypeName)
-		org, _, _, err := naming.ParseCloudFormationTypeName(typeName)
+		// org, _, _, err := naming.ParseCloudFormationTypeName(typeName)
 
-		if err == nil && org != naming.OrganizationNameAWS {
-			continue
-		}
+		// if err == nil {
+		// 	continue
+		// }
 
 		cfTypeNames = append(cfTypeNames, typeName)
 	}

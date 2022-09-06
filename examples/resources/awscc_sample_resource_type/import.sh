@@ -1,0 +1,1 @@
+$ terraform import awscc_sample_resource_type.example <resource ID>

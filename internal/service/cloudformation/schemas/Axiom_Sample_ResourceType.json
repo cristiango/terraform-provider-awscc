@@ -1,0 +1,52 @@
+{
+    "typeName": "Axiom::Sample::ResourceType",
+    "description": "This is an example Axiom Resource Type",
+    "sourceUrl": "https://github.com/aws-cloudformation/aws-cloudformation-rpdk.git",
+    "definitions": {},
+    "properties": {
+        "Id": {
+            "description": "The Identifier of the Resource Type",
+            "type": "string"
+        },
+        "Name": {
+            "description": "The name of the Resource Type",
+            "type": "string"
+        },
+        "Description": {
+            "description": "A meaninfull description",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "Name"
+    ],
+    "readOnlyProperties": [
+        "/properties/Id"
+    ],
+    "primaryIdentifier": [
+        "/properties/Id"
+    ],
+    "handlers": {
+        "create": {
+            "permissions": [
+            ]
+        },
+        "read": {
+            "permissions": [
+            ]
+        },
+        "update": {
+            "permissions": [
+            ]
+        },
+        "delete": {
+            "permissions": [
+            ]
+        },
+        "list": {
+            "permissions": [
+            ]
+        }
+    }
+}

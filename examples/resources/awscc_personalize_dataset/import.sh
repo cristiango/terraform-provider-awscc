@@ -1,1 +1,0 @@
-$ terraform import awscc_personalize_dataset.example <resource ID>

@@ -1,1 +1,0 @@
-$ terraform import awscc_kms_alias.example <resource ID>

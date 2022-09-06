@@ -1,1 +1,0 @@
-$ terraform import awscc_iotsitewise_gateway.example <resource ID>

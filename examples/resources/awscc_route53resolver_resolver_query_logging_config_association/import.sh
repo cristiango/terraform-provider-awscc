@@ -1,1 +1,0 @@
-$ terraform import awscc_route53resolver_resolver_query_logging_config_association.example <resource ID>

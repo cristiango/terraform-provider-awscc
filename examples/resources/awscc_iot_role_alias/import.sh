@@ -1,1 +1,0 @@
-$ terraform import awscc_iot_role_alias.example <resource ID>

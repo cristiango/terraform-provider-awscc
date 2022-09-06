@@ -1,1 +1,0 @@
-$ terraform import awscc_ssm_association.example <resource ID>

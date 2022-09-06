@@ -1,1 +1,0 @@
-$ terraform import awscc_kafkaconnect_connector.example <resource ID>

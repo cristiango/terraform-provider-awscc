@@ -1,1 +1,0 @@
-$ terraform import awscc_ec2_internet_gateway.example <resource ID>

@@ -1,1 +1,0 @@
-$ terraform import awscc_xray_sampling_rule.example <resource ID>

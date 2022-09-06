@@ -1,1 +1,0 @@
-$ terraform import awscc_iotfleethub_application.example <resource ID>

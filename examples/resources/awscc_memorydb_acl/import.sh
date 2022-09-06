@@ -1,1 +1,0 @@
-$ terraform import awscc_memorydb_acl.example <resource ID>

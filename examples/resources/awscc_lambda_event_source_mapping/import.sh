@@ -1,1 +1,0 @@
-$ terraform import awscc_lambda_event_source_mapping.example <resource ID>

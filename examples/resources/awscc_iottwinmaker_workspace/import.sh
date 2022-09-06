@@ -1,1 +1,0 @@
-$ terraform import awscc_iottwinmaker_workspace.example <resource ID>

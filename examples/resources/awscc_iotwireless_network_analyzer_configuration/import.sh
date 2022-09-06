@@ -1,1 +1,0 @@
-$ terraform import awscc_iotwireless_network_analyzer_configuration.example <resource ID>

@@ -1,1 +1,0 @@
-$ terraform import awscc_frauddetector_outcome.example <resource ID>

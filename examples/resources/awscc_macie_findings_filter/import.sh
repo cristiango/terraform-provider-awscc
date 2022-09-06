@@ -1,1 +1,0 @@
-$ terraform import awscc_macie_findings_filter.example <resource ID>

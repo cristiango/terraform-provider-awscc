@@ -1,1 +1,0 @@
-$ terraform import awscc_finspace_environment.example <resource ID>

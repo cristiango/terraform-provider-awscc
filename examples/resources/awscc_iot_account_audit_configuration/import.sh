@@ -1,1 +1,0 @@
-$ terraform import awscc_iot_account_audit_configuration.example <resource ID>

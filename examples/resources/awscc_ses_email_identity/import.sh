@@ -1,1 +1,0 @@
-$ terraform import awscc_ses_email_identity.example <resource ID>

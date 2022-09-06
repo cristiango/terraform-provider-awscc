@@ -1,1 +1,0 @@
-$ terraform import awscc_quicksight_theme.example <resource ID>

@@ -1,1 +1,0 @@
-$ terraform import awscc_s3objectlambda_access_point_policy.example <resource ID>

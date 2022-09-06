@@ -1,1 +1,0 @@
-$ terraform import awscc_cloudtrail_trail.example <resource ID>

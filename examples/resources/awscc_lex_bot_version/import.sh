@@ -1,1 +1,0 @@
-$ terraform import awscc_lex_bot_version.example <resource ID>

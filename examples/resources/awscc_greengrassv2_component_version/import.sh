@@ -1,1 +1,0 @@
-$ terraform import awscc_greengrassv2_component_version.example <resource ID>

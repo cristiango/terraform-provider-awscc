@@ -1,1 +1,0 @@
-$ terraform import awscc_rolesanywhere_profile.example <resource ID>

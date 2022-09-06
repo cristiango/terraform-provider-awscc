@@ -1,1 +1,0 @@
-$ terraform import awscc_mediaconnect_flow_source.example <resource ID>

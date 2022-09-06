@@ -1,1 +1,0 @@
-$ terraform import awscc_ses_configuration_set.example <resource ID>

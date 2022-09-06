@@ -1,1 +1,0 @@
-$ terraform import awscc_rds_global_cluster.example <resource ID>

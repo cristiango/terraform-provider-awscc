@@ -1,1 +1,0 @@
-$ terraform import awscc_ecs_service.example <resource ID>

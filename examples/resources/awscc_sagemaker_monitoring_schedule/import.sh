@@ -1,1 +1,0 @@
-$ terraform import awscc_sagemaker_monitoring_schedule.example <resource ID>

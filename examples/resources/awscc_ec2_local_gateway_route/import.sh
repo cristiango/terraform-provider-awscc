@@ -1,1 +1,0 @@
-$ terraform import awscc_ec2_local_gateway_route.example <resource ID>

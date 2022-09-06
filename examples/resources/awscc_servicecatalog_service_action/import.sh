@@ -1,1 +1,0 @@
-$ terraform import awscc_servicecatalog_service_action.example <resource ID>

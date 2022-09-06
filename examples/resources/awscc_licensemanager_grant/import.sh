@@ -1,1 +1,0 @@
-$ terraform import awscc_licensemanager_grant.example <resource ID>

@@ -1,1 +1,0 @@
-$ terraform import awscc_iotevents_alarm_model.example <resource ID>

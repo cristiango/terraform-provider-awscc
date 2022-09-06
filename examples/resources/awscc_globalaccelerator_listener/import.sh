@@ -1,1 +1,0 @@
-$ terraform import awscc_globalaccelerator_listener.example <resource ID>

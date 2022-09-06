@@ -1,1 +1,0 @@
-$ terraform import awscc_ssmcontacts_contact.example <resource ID>

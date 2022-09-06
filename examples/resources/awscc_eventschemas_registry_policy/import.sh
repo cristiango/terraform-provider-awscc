@@ -1,1 +1,0 @@
-$ terraform import awscc_eventschemas_registry_policy.example <resource ID>

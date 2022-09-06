@@ -1,1 +1,0 @@
-$ terraform import awscc_kinesisfirehose_delivery_stream.example <resource ID>

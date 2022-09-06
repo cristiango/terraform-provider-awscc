@@ -1,1 +1,0 @@
-$ terraform import awscc_wafv2_ip_set.example <resource ID>

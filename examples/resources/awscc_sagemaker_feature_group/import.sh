@@ -1,1 +1,0 @@
-$ terraform import awscc_sagemaker_feature_group.example <resource ID>

@@ -1,1 +1,0 @@
-$ terraform import awscc_xray_group.example <resource ID>

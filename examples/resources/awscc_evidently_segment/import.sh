@@ -1,1 +1,0 @@
-$ terraform import awscc_evidently_segment.example <resource ID>

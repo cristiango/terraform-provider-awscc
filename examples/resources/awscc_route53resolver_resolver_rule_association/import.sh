@@ -1,1 +1,0 @@
-$ terraform import awscc_route53resolver_resolver_rule_association.example <resource ID>

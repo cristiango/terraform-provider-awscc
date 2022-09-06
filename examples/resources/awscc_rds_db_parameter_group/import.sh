@@ -1,1 +1,0 @@
-$ terraform import awscc_rds_db_parameter_group.example <resource ID>

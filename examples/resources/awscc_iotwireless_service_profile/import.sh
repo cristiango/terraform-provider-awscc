@@ -1,1 +1,0 @@
-$ terraform import awscc_iotwireless_service_profile.example <resource ID>

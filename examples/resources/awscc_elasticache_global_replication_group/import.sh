@@ -1,1 +1,0 @@
-$ terraform import awscc_elasticache_global_replication_group.example <resource ID>

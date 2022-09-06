@@ -1,1 +1,0 @@
-$ terraform import awscc_rum_app_monitor.example <resource ID>

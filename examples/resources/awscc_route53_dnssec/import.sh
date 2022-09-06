@@ -1,1 +1,0 @@
-$ terraform import awscc_route53_dnssec.example <resource ID>

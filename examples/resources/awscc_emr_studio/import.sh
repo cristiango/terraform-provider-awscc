@@ -1,1 +1,0 @@
-$ terraform import awscc_emr_studio.example <resource ID>

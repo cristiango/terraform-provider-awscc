@@ -1,1 +1,0 @@
-$ terraform import awscc_stepfunctions_activity.example <resource ID>

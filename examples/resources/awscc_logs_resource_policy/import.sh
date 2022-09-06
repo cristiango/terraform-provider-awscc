@@ -1,1 +1,0 @@
-$ terraform import awscc_logs_resource_policy.example <resource ID>

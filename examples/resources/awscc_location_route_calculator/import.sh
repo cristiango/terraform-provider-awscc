@@ -1,1 +1,0 @@
-$ terraform import awscc_location_route_calculator.example <resource ID>

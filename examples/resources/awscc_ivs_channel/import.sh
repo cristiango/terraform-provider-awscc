@@ -1,1 +1,0 @@
-$ terraform import awscc_ivs_channel.example <resource ID>

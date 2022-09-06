@@ -1,1 +1,0 @@
-$ terraform import awscc_glue_registry.example <resource ID>

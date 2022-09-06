@@ -1,1 +1,0 @@
-$ terraform import awscc_lakeformation_data_cells_filter.example <resource ID>

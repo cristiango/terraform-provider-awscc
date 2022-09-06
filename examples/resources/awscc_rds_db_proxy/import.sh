@@ -1,1 +1,0 @@
-$ terraform import awscc_rds_db_proxy.example <resource ID>

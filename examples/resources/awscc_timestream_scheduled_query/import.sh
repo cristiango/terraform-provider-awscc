@@ -1,1 +1,0 @@
-$ terraform import awscc_timestream_scheduled_query.example <resource ID>

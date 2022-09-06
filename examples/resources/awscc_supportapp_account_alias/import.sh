@@ -1,1 +1,0 @@
-$ terraform import awscc_supportapp_account_alias.example <resource ID>

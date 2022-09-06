@@ -1,1 +1,0 @@
-$ terraform import awscc_quicksight_analysis.example <resource ID>

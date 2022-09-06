@@ -1,1 +1,0 @@
-$ terraform import awscc_sagemaker_image_version.example <resource ID>

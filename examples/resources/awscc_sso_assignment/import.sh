@@ -1,1 +1,0 @@
-$ terraform import awscc_sso_assignment.example <resource ID>

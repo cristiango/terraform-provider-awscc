@@ -1,1 +1,0 @@
-$ terraform import awscc_networkmanager_core_network.example <resource ID>

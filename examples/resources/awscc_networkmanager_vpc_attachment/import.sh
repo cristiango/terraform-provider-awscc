@@ -1,1 +1,0 @@
-$ terraform import awscc_networkmanager_vpc_attachment.example <resource ID>

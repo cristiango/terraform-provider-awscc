@@ -1,1 +1,0 @@
-$ terraform import awscc_ecs_task_set.example <resource ID>

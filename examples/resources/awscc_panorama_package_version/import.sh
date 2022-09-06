@@ -1,1 +1,0 @@
-$ terraform import awscc_panorama_package_version.example <resource ID>

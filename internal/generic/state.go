@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
-	"github.com/hashicorp/terraform-provider-awscc/internal/tfresource"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/tfresource"
 )
 
 // CopyValueAtPath copies the value at a specified path from source State to destination State.

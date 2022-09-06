@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-go/tftypes"
-	"github.com/hashicorp/terraform-provider-awscc/internal/tfresource"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/tfresource"
 )
 
 func TestIntBetweenValidator(t *testing.T) {

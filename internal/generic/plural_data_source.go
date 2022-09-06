@@ -14,7 +14,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-go/tftypes"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
-	tfcloudcontrol "github.com/hashicorp/terraform-provider-awscc/internal/service/cloudcontrol"
+	tfcloudcontrol "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/service/cloudcontrol"
 )
 
 // pluralDataSourceType is a type alias for a data source type.

@@ -7,8 +7,8 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/hashicorp/terraform-provider-awscc/internal/provider"
-	"github.com/hashicorp/terraform-provider-awscc/internal/provider/generators/shared"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/provider"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/provider/generators/shared"
 	"github.com/mitchellh/cli"
 )
 

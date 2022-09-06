@@ -41,7 +41,7 @@ locals {
 resource "github_issue_label" "workflow" {
   for_each = local.workflow_labels
 
-  repository = "terraform-provider-awscc"
+  repository = "axiom-terraform-provider-awscc"
   name       = each.key
   color      = each.value
 }

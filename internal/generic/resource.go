@@ -17,9 +17,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
-	tfcloudcontrol "github.com/hashicorp/terraform-provider-awscc/internal/service/cloudcontrol"
-	"github.com/hashicorp/terraform-provider-awscc/internal/tfresource"
-	"github.com/hashicorp/terraform-provider-awscc/internal/validate"
+	tfcloudcontrol "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/service/cloudcontrol"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/tfresource"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/validate"
 	"github.com/mattbaird/jsonpatch"
 )
 

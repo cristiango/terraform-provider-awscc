@@ -13,8 +13,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
-	tfcloudcontrol "github.com/hashicorp/terraform-provider-awscc/internal/service/cloudcontrol"
-	"github.com/hashicorp/terraform-provider-awscc/internal/tfresource"
+	tfcloudcontrol "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/service/cloudcontrol"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/tfresource"
 )
 
 // singularDataSourceType is a type alias for a data source type.

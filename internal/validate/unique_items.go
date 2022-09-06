@@ -5,7 +5,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/hashicorp/terraform-provider-awscc/internal/diag"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/diag"
 )
 
 // uniqueItemsValidator validates that an Attribute's list items have unique values.

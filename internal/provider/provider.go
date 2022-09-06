@@ -15,9 +15,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
-	"github.com/hashicorp/terraform-provider-awscc/internal/registry"
-	cctypes "github.com/hashicorp/terraform-provider-awscc/internal/types"
-	"github.com/hashicorp/terraform-provider-awscc/internal/validate"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/registry"
+	cctypes "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/types"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/validate"
 )
 
 const (
@@ -478,8 +478,8 @@ func (p *AwsCloudControlApiProvider) RoleARN(_ context.Context) string {
 func newCloudControlClient(ctx context.Context, pd *providerData) (*cloudcontrol.Client, string, error) {
 	config := awsbase.Config{
 		AccessKey:              pd.AccessKey.Value,
-		CallerDocumentationURL: "https://registry.terraform.io/providers/hashicorp/awscc",
-		CallerName:             "Terraform AWS Cloud Control Provider",
+		CallerDocumentationURL: "https://github.com/eVisionSoftware/axiom/axiom-terraform-provider",
+		CallerName:             "Enablon Terraform Provider",
 		HTTPProxy:              pd.HTTPProxy.Value,
 		Insecure:               pd.Insecure.Value,
 		Profile:                pd.Profile.Value,
@@ -487,10 +487,10 @@ func newCloudControlClient(ctx context.Context, pd *providerData) (*cloudcontrol
 		SecretKey:              pd.SecretKey.Value,
 		Token:                  pd.Token.Value,
 		APNInfo: &awsbase.APNInfo{
-			PartnerName: "HashiCorp",
+			PartnerName: "Enablon",
 			Products: []awsbase.UserAgentProduct{
 				{Name: "Terraform", Version: pd.terraformVersion, Comment: "+https://www.terraform.io"},
-				{Name: "terraform-provider-awscc", Version: Version, Comment: "+https://registry.terraform.io/providers/hashicorp/awscc"},
+				{Name: "axiom-axiom-terraform-provider", Version: Version, Comment: "+https://github.com/eVisionSoftware/axiom/axiom-terraform-provider"},
 			},
 		},
 	}

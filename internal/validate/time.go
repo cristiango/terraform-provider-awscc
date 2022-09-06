@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
-	"github.com/hashicorp/terraform-provider-awscc/internal/diag"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/diag"
 )
 
 // isRFC3339TimeValidator validates that a string Attribute's length is a valid RFC33349Time.

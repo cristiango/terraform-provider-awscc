@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	cfschema "github.com/hashicorp/aws-cloudformation-resource-schema-sdk-go"
-	"github.com/hashicorp/terraform-provider-awscc/internal/naming"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/naming"
 	"github.com/mitchellh/cli"
 )
 

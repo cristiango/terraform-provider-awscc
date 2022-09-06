@@ -11,9 +11,9 @@ import (
 	{{ if .ImportFrameworkResource }}"github.com/hashicorp/terraform-plugin-framework/resource"{{- end}}
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	. "github.com/hashicorp/terraform-provider-awscc/internal/generic"
-	"github.com/hashicorp/terraform-provider-awscc/internal/registry"
-	{{ if .ImportValidate }}"github.com/hashicorp/terraform-provider-awscc/internal/validate"{{- end }}
+	. "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/generic"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/registry"
+	{{ if .ImportValidate }}"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/validate"{{- end }}
 )
 
 func init() {

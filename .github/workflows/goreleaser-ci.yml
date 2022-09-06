@@ -50,7 +50,7 @@ jobs:
           args: check
   build-32-bit:
     # Run a single compiler check for 32-bit architecture (FreeBSD/ARM)
-    # Ref: https://github.com/hashicorp/terraform-provider-awscc/issues/533
+    # Ref: https://github.com/eVisionSoftware/axiom/axiom-terraform-provider/issues/533
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3

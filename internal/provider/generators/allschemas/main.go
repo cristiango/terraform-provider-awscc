@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudcontrol"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation/types"
-	"github.com/hashicorp/terraform-provider-awscc/internal/naming"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/naming"
 	"github.com/mitchellh/cli"
 )
 

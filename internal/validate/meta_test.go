@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-go/tftypes"
-	ccdiag "github.com/hashicorp/terraform-provider-awscc/internal/diag"
+	ccdiag "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/diag"
 )
 
 func TestAllValidator(t *testing.T) {

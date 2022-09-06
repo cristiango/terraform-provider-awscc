@@ -5,7 +5,7 @@ import (
 	"flag"
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/hashicorp/terraform-provider-awscc/internal/provider"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/provider"
 )
 
 func main() {

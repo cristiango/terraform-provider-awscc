@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"testing"
 
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/hashicorp/terraform-provider-awscc/internal/acctest"
 )
 
 func TestAccAxiomSampleResourceTypeDataSource_basic(t *testing.T) {

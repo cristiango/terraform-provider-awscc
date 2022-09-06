@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudcontrol"
 	"github.com/aws/aws-sdk-go-v2/service/cloudcontrol/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
-	"github.com/hashicorp/terraform-provider-awscc/internal/tfresource"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/tfresource"
 )
 
 func FindResourceByTypeNameAndID(ctx context.Context, conn *cloudcontrol.Client, roleARN, typeName, id string) (*types.ResourceDescription, error) {

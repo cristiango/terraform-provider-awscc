@@ -6,7 +6,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/hashicorp/terraform-provider-awscc/internal/diag"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/diag"
 )
 
 // floatBetweenValidator validates that an float Attribute's value is in a range.

@@ -4,5 +4,5 @@
 package provider
 
 import (
-	_ "github.com/hashicorp/terraform-provider-awscc/internal/axiom/sample"
+	_ "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/axiom/sample"
 )

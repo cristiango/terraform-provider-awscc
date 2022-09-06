@@ -9,8 +9,8 @@ import (
 	"text/template"
 
 	cfschema "github.com/hashicorp/aws-cloudformation-resource-schema-sdk-go"
-	"github.com/hashicorp/terraform-provider-awscc/internal/naming"
-	"github.com/hashicorp/terraform-provider-awscc/internal/provider/generators/shared/codegen"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/naming"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/provider/generators/shared/codegen"
 	"github.com/mitchellh/cli"
 )
 

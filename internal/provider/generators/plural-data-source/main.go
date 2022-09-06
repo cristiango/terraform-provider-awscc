@@ -11,8 +11,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/hashicorp/terraform-provider-awscc/internal/naming"
-	"github.com/hashicorp/terraform-provider-awscc/internal/provider/generators/shared"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/naming"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/provider/generators/shared"
 	"github.com/mitchellh/cli"
 )
 

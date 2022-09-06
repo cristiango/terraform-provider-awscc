@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
-	"github.com/hashicorp/terraform-provider-awscc/internal/strings"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/strings"
 )
 
 // allValidator validates that a string Attribute's length is in a range.

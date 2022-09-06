@@ -5,11 +5,11 @@ package sample
 import (
 	"context"
 
+	. "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/generic"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/registry"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	. "github.com/hashicorp/terraform-provider-awscc/internal/generic"
-	"github.com/hashicorp/terraform-provider-awscc/internal/registry"
 )
 
 func init() {

@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-log/tfsdklog"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfcloudcontrol "github.com/hashicorp/terraform-provider-awscc/internal/service/cloudcontrol"
-	"github.com/hashicorp/terraform-provider-awscc/internal/tfresource"
+	tfcloudcontrol "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/service/cloudcontrol"
+	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/tfresource"
 )
 
 const (

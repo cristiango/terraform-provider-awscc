@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	ccdiag "github.com/hashicorp/terraform-provider-awscc/internal/diag"
+	ccdiag "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/diag"
 )
 
 // arrayLenBetweenValidator validates that an array (List/Set) Attribute's length is in a range.

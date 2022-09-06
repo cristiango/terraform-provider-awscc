@@ -1,4 +1,4 @@
-module github.com/hashicorp/terraform-provider-awscc/tools
+module github.com/eVisionSoftware/axiom/axiom-terraform-provider/tools
 
 go 1.18
 

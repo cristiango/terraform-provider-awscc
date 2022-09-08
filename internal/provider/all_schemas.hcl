@@ -1,6 +1,6 @@
 defaults {
   schema_cache_directory     = "../service/cloudformation/schemas"
-  terraform_type_name_prefix = "awscc"
+  terraform_type_name_prefix = "axiom"
 }
 
 meta_schema {

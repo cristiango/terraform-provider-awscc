@@ -11,7 +11,7 @@ import (
 )
 
 func TestAccAxiomSampleResourceTypeDataSource_basic(t *testing.T) {
-	td := acctest.NewTestData(t, "Axiom::Sample::ResourceType", "awscc_sample_resource_type", "test")
+	td := acctest.NewTestData(t, "Axiom::Sample::ResourceType", "axiom_sample_resource_type", "test")
 
 	td.DataSourceTest(t, []resource.TestStep{
 		{
@@ -22,7 +22,7 @@ func TestAccAxiomSampleResourceTypeDataSource_basic(t *testing.T) {
 }
 
 func TestAccAxiomSampleResourceTypeDataSource_NonExistent(t *testing.T) {
-	td := acctest.NewTestData(t, "Axiom::Sample::ResourceType", "awscc_sample_resource_type", "test")
+	td := acctest.NewTestData(t, "Axiom::Sample::ResourceType", "axiom_sample_resource_type", "test")
 
 	td.DataSourceTest(t, []resource.TestStep{
 		{

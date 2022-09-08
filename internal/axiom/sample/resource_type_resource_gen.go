@@ -14,10 +14,10 @@ import (
 )
 
 func init() {
-	registry.AddResourceTypeFactory("awscc_sample_resource_type", resourceTypeResourceType)
+	registry.AddResourceTypeFactory("axiom_sample_resource_type", resourceTypeResourceType)
 }
 
-// resourceTypeResourceType returns the Terraform awscc_sample_resource_type resource type.
+// resourceTypeResourceType returns the Terraform axiom_sample_resource_type resource type.
 // This Terraform resource type corresponds to the CloudFormation Axiom::Sample::ResourceType resource type.
 func resourceTypeResourceType(ctx context.Context) (provider.ResourceType, error) {
 	attributes := map[string]tfsdk.Attribute{
@@ -67,7 +67,7 @@ func resourceTypeResourceType(ctx context.Context) (provider.ResourceType, error
 
 	var opts ResourceTypeOptions
 
-	opts = opts.WithCloudFormationTypeName("Axiom::Sample::ResourceType").WithTerraformTypeName("awscc_sample_resource_type")
+	opts = opts.WithCloudFormationTypeName("Axiom::Sample::ResourceType").WithTerraformTypeName("axiom_sample_resource_type")
 	opts = opts.WithTerraformSchema(schema)
 	opts = opts.WithSyntheticIDAttribute(false)
 	opts = opts.WithAttributeNameMap(map[string]string{

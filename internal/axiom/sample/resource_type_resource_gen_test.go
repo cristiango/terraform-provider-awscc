@@ -11,7 +11,7 @@ import (
 )
 
 func TestAccAxiomSampleResourceType_basic(t *testing.T) {
-	td := acctest.NewTestData(t, "Axiom::Sample::ResourceType", "awscc_sample_resource_type", "test")
+	td := acctest.NewTestData(t, "Axiom::Sample::ResourceType", "axiom_sample_resource_type", "test")
 
 	td.ResourceTest(t, []resource.TestStep{
 		{

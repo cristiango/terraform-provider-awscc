@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/provider"
 	fwprovider "github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/provider"
 )
 
 type TestData struct {

@@ -3,7 +3,7 @@ terraform {
     organization = "hashicorp-v2"
 
     workspaces {
-      name = "axiom-terraform-provider-awscc-repository"
+      name = "terraform-provider-axiom-awscc-repository"
     }
   }
 

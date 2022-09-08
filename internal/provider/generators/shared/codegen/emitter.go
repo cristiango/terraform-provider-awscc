@@ -7,8 +7,8 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/naming"
 	cfschema "github.com/hashicorp/aws-cloudformation-resource-schema-sdk-go"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/naming"
 	"github.com/mitchellh/cli"
 )
 

@@ -5,11 +5,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/tfresource"
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-go/tftypes"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/tfresource"
 )
 
 func TestDurationTypeValueFromTerraform(t *testing.T) {

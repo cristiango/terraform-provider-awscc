@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/aws/aws-sdk-go-v2/aws/arn"
+	ccdiag "github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/diag"
 	"github.com/hashicorp/terraform-plugin-framework/diag"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
-	ccdiag "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/diag"
 )
 
 // arnValidator validates that a string is an Amazon Resource Name (ARN).

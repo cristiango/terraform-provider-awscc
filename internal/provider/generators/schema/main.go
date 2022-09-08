@@ -20,9 +20,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation"
 	"github.com/aws/aws-sdk-go-v2/service/cloudformation/types"
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/naming"
 	cfschema "github.com/hashicorp/aws-cloudformation-resource-schema-sdk-go"
 	"github.com/hashicorp/hcl/v2/hclsimple"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/naming"
 	"github.com/mitchellh/cli"
 )
 

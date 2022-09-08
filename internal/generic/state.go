@@ -3,10 +3,10 @@ package generic
 import (
 	"context"
 
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/tfresource"
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/tfresource"
 )
 
 // CopyValueAtPath copies the value at a specified path from source State to destination State.

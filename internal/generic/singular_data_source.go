@@ -7,14 +7,14 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/cloudcontrol"
 	cctypes "github.com/aws/aws-sdk-go-v2/service/cloudcontrol/types"
+	tfcloudcontrol "github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/service/cloudcontrol"
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/tfresource"
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/diag"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
-	tfcloudcontrol "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/service/cloudcontrol"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/tfresource"
 )
 
 // singularDataSourceType is a type alias for a data source type.

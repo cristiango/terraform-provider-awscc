@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/url"
 
+	ccdiag "github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/diag"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
-	ccdiag "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/diag"
 )
 
 // uriValidator validates that a string is a URI.

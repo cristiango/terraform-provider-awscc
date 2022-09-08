@@ -219,7 +219,7 @@ locals {
 resource "github_issue_label" "service" {
   for_each = local.service_labels
 
-  repository = "axiom-terraform-provider-awscc"
+  repository = "terraform-provider-axiom-awscc"
   name       = "service/${each.value}"
   color      = "7b42bc" # color:terraform (logomark)
 }

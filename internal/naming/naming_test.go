@@ -3,7 +3,7 @@ package naming_test
 import (
 	"testing"
 
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/naming"
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/naming"
 )
 
 func TestCloudFormationPropertyToTerraformAttribute(t *testing.T) {

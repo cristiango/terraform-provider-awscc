@@ -3,9 +3,9 @@ package generic
 import (
 	"context"
 
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/diag"
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/diag"
 )
 
 type defaultValueAttributePlanModifier struct {

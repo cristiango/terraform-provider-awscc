@@ -3,8 +3,8 @@ package validate
 import (
 	"context"
 
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/strings"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/strings"
 )
 
 // allValidator validates that a string Attribute's length is in a range.

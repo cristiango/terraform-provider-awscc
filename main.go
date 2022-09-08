@@ -4,8 +4,8 @@ import (
 	"context"
 	"flag"
 
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/provider"
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/provider"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 	flag.Parse()
 
 	providerserver.Serve(context.Background(), provider.New, providerserver.ServeOpts{
-		Address: "registry.terraform.io/hashicorp/awscc",
+		Address: "registry.terraform.io/enablon/axiom",
 		Debug:   debugMode,
 	})
 }

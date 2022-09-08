@@ -1,4 +1,4 @@
-module github.com/eVisionSoftware/axiom/axiom-terraform-provider
+module github.com/eVisionSoftware/axiom/terraform-provider-axiom
 
 go 1.18
 

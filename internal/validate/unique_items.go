@@ -3,9 +3,9 @@ package validate
 import (
 	"context"
 
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/diag"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/diag"
 )
 
 // uniqueItemsValidator validates that an Attribute's list items have unique values.

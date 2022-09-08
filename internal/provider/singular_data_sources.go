@@ -4,5 +4,5 @@
 package provider
 
 import (
-	_ "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/axiom/sample"
+	_ "github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/axiom/sample"
 )

@@ -1,2 +1,2 @@
-url_source_repository      = "https://github.com/eVisionSoftware/axiom/axiom-terraform-provider"
-url_license                = "https://github.com/eVisionSoftware/axiom/axiom-terraform-provider/blob/main/LICENSE"
+url_source_repository      = "https://github.com/eVisionSoftware/axiom/terraform-provider-axiom"
+url_license                = "https://github.com/eVisionSoftware/axiom/terraform-provider-axiom/blob/main/LICENSE"

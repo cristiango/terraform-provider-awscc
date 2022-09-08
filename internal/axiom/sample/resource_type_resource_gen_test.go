@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/acctest"
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 )
 

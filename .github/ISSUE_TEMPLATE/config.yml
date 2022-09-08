@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: Terraform AWS Cloud Control Provider Questions
-    url: https://discuss.hashicorp.com/c/axiom-terraform-providers/tf-aws
+    url: https://discuss.hashicorp.com/c/terraform-provider-axioms/tf-aws
     about: GitHub issues in this repository are only intended for bug reports and feature requests. Other issues will be closed. Please ask and answer questions through the Terraform AWS Provider Community Forum.
   - name: Terraform Core Bug Reports and Feature Requests
     url: https://github.com/hashicorp/terraform/issues/new/choose

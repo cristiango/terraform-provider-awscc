@@ -8,6 +8,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/feature/ec2/imds"
 	"github.com/aws/aws-sdk-go-v2/service/cloudcontrol"
 	"github.com/aws/smithy-go/logging"
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/registry"
+	cctypes "github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/types"
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/validate"
 	awsbase "github.com/hashicorp/aws-sdk-go-base/v2"
 	hclog "github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/terraform-plugin-framework/diag"
@@ -15,9 +18,6 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/registry"
-	cctypes "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/types"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/validate"
 )
 
 const (
@@ -478,7 +478,7 @@ func (p *AwsCloudControlApiProvider) RoleARN(_ context.Context) string {
 func newCloudControlClient(ctx context.Context, pd *providerData) (*cloudcontrol.Client, string, error) {
 	config := awsbase.Config{
 		AccessKey:              pd.AccessKey.Value,
-		CallerDocumentationURL: "https://github.com/eVisionSoftware/axiom/axiom-terraform-provider",
+		CallerDocumentationURL: "https://github.com/eVisionSoftware/axiom/terraform-provider-axiom",
 		CallerName:             "Enablon Terraform Provider",
 		HTTPProxy:              pd.HTTPProxy.Value,
 		Insecure:               pd.Insecure.Value,
@@ -490,7 +490,7 @@ func newCloudControlClient(ctx context.Context, pd *providerData) (*cloudcontrol
 			PartnerName: "Enablon",
 			Products: []awsbase.UserAgentProduct{
 				{Name: "Terraform", Version: pd.terraformVersion, Comment: "+https://www.terraform.io"},
-				{Name: "axiom-axiom-terraform-provider", Version: Version, Comment: "+https://github.com/eVisionSoftware/axiom/axiom-terraform-provider"},
+				{Name: "terraform-provider-axiom", Version: Version, Comment: "+https://github.com/eVisionSoftware/axiom/terraform-provider-axiom"},
 			},
 		},
 	}

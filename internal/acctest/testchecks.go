@@ -6,12 +6,12 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go-v2/service/cloudcontrol"
+	tfcloudcontrol "github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/service/cloudcontrol"
+	"github.com/eVisionSoftware/axiom/terraform-provider-axiom/internal/tfresource"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
 	"github.com/hashicorp/terraform-plugin-log/tfsdklog"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfcloudcontrol "github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/service/cloudcontrol"
-	"github.com/eVisionSoftware/axiom/axiom-terraform-provider/internal/tfresource"
 )
 
 const (
